@@ -8,6 +8,7 @@ import Home from "./pages/home/Home";
 import Auth from "./pages/auth/Auth";
 import VerifyOTP from "./components/auth/verifyOTP/VerifyOTP";
 import CategoryAdminPage from "./pages/admin/CategoryAdminPage";
+import ProductAdminPage from "./pages/admin/ProductAdminPage";
 import ContactPage from "./pages/contact/ContactPage";
 import BlogList from "./components/blog/BlogList";
 import BlogDetail from "./components/blog/BlogDetail";
@@ -58,6 +59,10 @@ function App() {
     {
       path: "/verifyOTP",
       element: <VerifyOTP />,
+    },
+    {
+      path: "/admin/products",
+      element: <ProductAdminPage />,
     },
     {
       path: "/admin/categories",
